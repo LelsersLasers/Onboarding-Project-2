@@ -10,6 +10,7 @@
             "windows": {
                 "command": "mingw32-make -j V=1"
             },
+            "command": "make -j V=1",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
@@ -25,6 +26,7 @@
             "windows": {
                 "command": "rmdir /s /q ${workspaceFolder}\\build"
             },
+            "command": "make clean",
             "problemMatcher": [],
         },
         {
